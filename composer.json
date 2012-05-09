@@ -1,0 +1,27 @@
+{
+    "name": "brikou/zend_date",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Date Library",
+    "keywords": [
+        "zend framework",
+        "date"
+    ],
+    "homepage": "https://github.com/brikou/zend_date",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_cache": "*",
+        "brikou/zend_locale": "*",
+        "brikou/zend_time-sync": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Date": "" }
+    }
+}
